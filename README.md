@@ -17,8 +17,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-[ X ] Added a basic navbar to navigate to the statistics section of the page and the games section of the page.
-[ X ] Added a pointer when hovering over a button so users can differentiate between what they can and cannot click on.
+* [ X ] Added a basic navbar to navigate to the statistics section of the page and the games section of the page.
+* [ X ] Added a pointer when hovering over a button so users can differentiate between what they can and cannot click on.
 
 
 ## Video Walkthrough
