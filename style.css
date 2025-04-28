@@ -17,7 +17,14 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    justify-content: space-between;
 }
+
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
 
 .stats-container {
     display: flex;
@@ -73,3 +80,40 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+button:hover{
+    cursor: pointer;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+nav {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
